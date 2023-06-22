@@ -1,25 +1,6 @@
-public class Hexagon extends Shape{
-    private int siedA;
-
-    public Hexagon(int siedA) {
-        this.siedA = siedA;
-    }
-
-    public Hexagon(String nameShape, int siedA) {
-        super(nameShape);
-        this.siedA = siedA;
-    }
-
-    public int getSiedA() {
-        return siedA;
-    }
-
-    public void setSiedA(int siedA) {
-        this.siedA = siedA;
-    }
-
+public class Hexagon implements Shape{
     @Override
-    public void scaneNameShape() {
-        super.scaneNameShape();
+    public String getNameShape() {
+        return "Hexagon";
     }
 }
