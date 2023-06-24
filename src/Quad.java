@@ -1,4 +1,4 @@
-public class Quad implements Shape{
+public class Quad extends Shape{
 
     @Override
     public String getNameShape() {
